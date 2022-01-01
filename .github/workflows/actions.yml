@@ -1,0 +1,133 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: header.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: header
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+      
+  wakatime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: wakatime.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+                 
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
+          plugin_wakatime_days: 7                                   # Display last week stats
+          plugin_wakatime_sections: languages-graphs, editors-graphs  # do not show projects due to work environments
+          plugin_wakatime_limit: 4                                  # Show 4 entries per graph
+          plugin_wakatime_url: https://wakatime.com                 # Wakatime url endpoint
+          plugin_wakatime_user: esc                                 # User
+
+  acti_comm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: acti_comm.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: activity, community
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          
+  iso_calender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: iso_calender.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+  issue_pr_lang:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: issue_pr_lang.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          plugin_followup: yes
+          plugin_languages: yes
+
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metadata.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: metadata
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: esatterwhite
+          template: classic
+          base: repositories
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
