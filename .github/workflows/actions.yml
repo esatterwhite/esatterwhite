@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: esatterwhite
+          base: achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B      # Display achievements with rank B or higher
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
@@ -47,6 +48,7 @@ jobs:
           filename: lines-of-code.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           plugin_lines: yes
 
   acti_comm:
@@ -95,6 +97,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: esatterwhite
+          base: ""
           template: classic
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
