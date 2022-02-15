@@ -174,17 +174,17 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">Makefile</span>
-                            <div class="bar" style="width: 51.73115707518409%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <div class="bar" style="width: 51.7117539500211%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             <span class="value">65%</span>
                         </div>
                         <div class="entry">
                             <span class="name">JavaScript</span>
-                            <div class="bar" style="width: 22.91449744383472%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <div class="bar" style="width: 22.905902761498428%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             <span class="value">29%</span>
                         </div>
                         <div class="entry">
                             <span class="name">Lua</span>
-                            <div class="bar" style="width: 5.354345480981192%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 5.382343288480472%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">7%</span>
                         </div>
                     </div>
