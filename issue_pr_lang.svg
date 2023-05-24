@@ -123,14 +123,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="382.74941754428363" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="382.74941754428363" y="0" width="31.37575576783059" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="414.1251733121142" y="0" width="18.81263136792218" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="432.9378046800364" y="0" width="15.986086285489291" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="448.9238909655257" y="0" width="6.551110381837611" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="455.47500134736333" y="0" width="1.7671433529333214" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="457.24214470029665" y="0" width="1.6395540553575798" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="458.8816987556542" y="0" width="1.118301244345794" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="379.2120454203031" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="379.2120454203031" y="0" width="31.085780868498176" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="410.2978262888013" y="0" width="18.6387649301714" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="428.93659121897264" y="0" width="15.838342792212012" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="444.77493401118465" y="0" width="6.490564985336385" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="451.26549899652105" y="0" width="3.552468462941001" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="454.817967459462" y="0" width="3.2653860817591305" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="458.08335354122113" y="0" width="1.9166464587787997" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -165,21 +165,21 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#000080" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#00ADD8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Lua
+                        Go
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Makefile
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Shell
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#00ADD8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        Go
                     </div>
                 </div>
             </section>
