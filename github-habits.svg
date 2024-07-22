@@ -17,7 +17,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 31.4 characters per line of code written</li>
+                        <li>Has approximately 31.3 characters per line of code written</li>
                         <li>Mostly pushes code around 12:00</li>
                         <li>Mostly active on Tuesday</li>
                     </ul>
@@ -28,8 +28,8 @@
                     <h3>Commit activity per hour of day</h3>
                     <div class="chart-bars">
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">3</span>
+                            <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             07
                         </div>
                         <div class="entry">
@@ -43,8 +43,8 @@
                             09
                         </div>
                         <div class="entry">
-                            <span class="value">7</span>
-                            <div class="bar" style="height: 29.166666666666668px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">6</span>
+                            <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             10
                         </div>
                         <div class="entry">
@@ -145,13 +145,13 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 31.471718405162274%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">39%</span>
+                                <div class="bar" style="width: 31.648552204293956%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">40%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Makefile</span>
-                                <div class="bar" style="width: 0.38627426817382343%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
+                                <div class="bar" style="width: 0.40556868333816826%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
                             </div>
                         </div>
                     </section>
