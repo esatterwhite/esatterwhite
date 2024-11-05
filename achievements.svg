@@ -67,7 +67,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="240.04333333333332 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="241.18 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -95,10 +95,10 @@
                                     <span class="prefix">Master</span>
                                     contributor
                                     <div class="value-wrapper">
-                                        <div class="value">3323</div>
+                                        <div class="value">3334</div>
                                     </div>
                                 </div>
-                                <div class="text">Opened 3323 pull requests</div>
+                                <div class="text">Opened 3334 pull requests</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -175,7 +175,7 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     developer
-                                    <span class="gh">ranked 89.3k out of 148m users</span>
+                                    <span class="gh">ranked 89.3k out of 146m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">153</div>
                                     </div>
@@ -287,7 +287,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     maintainer
-                                    <span class="gh">ranked 5.04k out of 219m repositories</span>
+                                    <span class="gh">ranked 5.04k out of 213m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">8214</div>
                                     </div>
